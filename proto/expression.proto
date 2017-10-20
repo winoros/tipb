@@ -344,6 +344,14 @@ enum ScalarFuncSig {
 	IntIsFalse = 3125;
 	RealIsFalse = 3126;
 	DecimalIsFalse = 3127;
+
+	InInt = 4001;
+	InReal = 4002;
+	InDecimal = 4003;
+	InString = 4004;
+	InTime = 4005;
+	InDuration = 4006;
+	InJson = 4007;
     
 	IfNullInt = 4101;
 	IfNullReal = 4102;
